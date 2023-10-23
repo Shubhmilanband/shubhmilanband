@@ -4,18 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>SHUBH MILAN BAND</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <title>Shubh Milan Band</title>
 </head>
 <body>
-    <nav class="navbar">
-        <ul class="nav-list">
-            <div class="logo"><img src="image.jpg" alt="logo"></div>
-            <li><a href="#home"> Home </a></li>
-            <li><a href="#about"> About</a></li>
-            <li><a href="services"> Services</a></li>
-            <li><a href="contact">Contact Us</a></li>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="image/logo.jpg" alt="logo"></div>
+            <li> <a href="#Home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#contacts">Contact Us</a></li>
         </ul>
-    </ul>
-    <div class="rightNav">
-        <input type="text" name="search" id="search">
-     <button class="btn btn-sm">Search</button>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">SHUBH MILAN BAND </p>
+                <p class="text-big">20+ years of experience
+                </p>
+                    <p class="text-big">1500+ bands organised</p>
+                <div class="buttons">
+                    <button class="btn">SUBSCRIBE</button>
+                    <button class="btn">Watch Videos</button>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="image/image.jpg" alt="band image">
+            </div>
+        </div>
+    </section>
+    <section>
+        <section class="secRight" id="about">
+            <div class="paras">
+            <p class="sectionTag text-big">You just visited best band services in India!</p>
+            <p class="sectionSubTag text-small">We with our excellence professional team provdes best band, baggi, ghori,light, baja, firewoks...etc and many more services in places like ghaziabad, Noida, Delhi , Modinagar, Meerut, South Delhi, Greater Noida and various places in India.</p>
+               <p class="sectionSubTag text-small">We mark our glamorous presence on popular Social Media handles as well including YouTube (1LAC VIEWS), INSTAGRAM and FACEBOOK</p>
+            </div>
+            <div class="thumbnail">
+                <img src="image/image1.jpg" alt="band image" class="imgfluid">
+            </div>
+        </section>
+        <section class="contact" id="contact">
+        
+            <h2 class="text-center">Contact Us</h2>
+            <div class="form">
+                <input class="form-input" type="text" Name="name" id="Name" placeholder="Enter Your Name">
+                <input class="form-input" type="text" Name="name" id="Contact" placeholder="Enter Your Contact">
+                <input class="form-input" type="text" Name="name" id="Email" placeholder="Enter Your Email">
+                <button class="btn btn-dark">Submit</button>
+            </div>
+        </section>
+        <footer>
+            <p class="text-footer">
+                Thanks for Visiting Us!
+            </p>
+        
+        </footer>
+        <script src="js/resp.js"></script>
+</body>
+</html>
